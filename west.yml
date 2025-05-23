@@ -14,4 +14,4 @@ manifest:
 
     - name: libmpix
       url: https://github.com/libmpix/libmpix
-      revision: zephyr
+      revision: main
