@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  self:
+    west-commands: scripts/west-commands.yml
+
+  projects:
+    - name: zephyr
+      url: https://github.com/zephyrproject-rtos/zephyr
+      revision: main
+      import:
+        name-allowlist:
+          - zephyr
+
+    - name: libmpix
+      url: https://github.com/libmpix/libmpix
+      revision: zephyr
