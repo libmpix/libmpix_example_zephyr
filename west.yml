@@ -8,9 +8,7 @@ manifest:
     - name: zephyr
       url: https://github.com/zephyrproject-rtos/zephyr
       revision: main
-      import:
-        name-allowlist:
-          - zephyr
+      import: true
 
     - name: libmpix
       url: https://github.com/libmpix/libmpix
